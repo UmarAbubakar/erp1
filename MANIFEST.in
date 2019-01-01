@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include acel *.css
+recursive-include acel *.csv
+recursive-include acel *.html
+recursive-include acel *.ico
+recursive-include acel *.js
+recursive-include acel *.json
+recursive-include acel *.md
+recursive-include acel *.png
+recursive-include acel *.py
+recursive-include acel *.svg
+recursive-include acel *.txt
+recursive-exclude acel *.pyc
